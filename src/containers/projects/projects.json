@@ -1,0 +1,114 @@
+{
+    "projects": [
+        {
+            "title": "Tower Defense 2",
+            "description": "Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense adventure that will put your strategic skills to the test!\nIn this captivating game, you find yourself in a vibrant world teeming with diverse landscapes and fantastical creatures. As the guardian of your kingdom, you must defend against relentless waves of enemies hell-bent on infiltrating and wreaking havoc.",
+            "image": "banners/Tower_Defense_2.jpg",
+            "tags": [
+                "Unity",
+                "Plastic SCM",
+                "C#",
+                "Piskel",
+                "Tilemaps"
+            ],
+            "link": "https://artyomg.itch.io/tower-defense",
+            "playable": true,
+            "embed": "<iframe src='https://i.simmer.io/@TurboKozel/tower-defense-2' width='1100' height='660' frameborder='0' scrolling='no'></iframe>"
+        },
+        {
+            "title": "Commercial Photography Website",
+            "description": "Elevate your online presence with a sleek and professional website tailored for your photography business. Crafted using React and Cybrancee, this platform showcases your work with stunning visuals and intuitive design. From captivating portfolios to seamless client interaction, this website is your gateway to expanding your reach and solidifying your brand in the competitive world of commercial photography.",
+            "image": "banners/photo.artyomg.com.jpg",
+            "tags": [
+                "React",
+                "Cybrancee",
+                "Plesk",
+                "Email Form",
+                "JavaScript"
+            ],
+            "link": "https://photo.artyomg.com",
+            "playable": true,
+            "embed": "<iframe src='https://photo.artyomg.com' width='1100' height='660' frameborder='0'></iframe>"
+        },
+        {
+            "title": "Mitosis Stage Cell ML Image Sorter",
+            "description": "Dive into the intricate world of cell biology with our cutting-edge Machine Learning program. This sophisticated tool is designed to meticulously sort images capturing various stages of cell mitosis. Witness the wonder of cellular division through a lens of technological precision as the program accurately categorizes and organizes these images with unparalleled efficiency.",
+            "image": "banners/ML_Image_Sorter.jpg",
+            "tags": [
+                "Python",
+                "Tensorflow",
+                "Google Colabs",
+                "Machine Learning"
+            ],
+            "link": "https://drive.google.com/file/d/18-1wQcQyEbK7ry8htFwO05ebDA2qyWfj/view?usp=sharing",
+            "playable": false,
+            "embed": "<GistEmbed></GistEmbed>"
+        },
+        {
+            "title": "EcoSim",
+            "description": "Immerse yourself in the delicate balance of nature with EcoSim, a groundbreaking simulation experience. Crafted using Unity, C#, and Blender, this simulation transports you to a dynamic, ever-evolving ecosystem set within randomly generated 3D terrain. Explore the intricate dance between predator and prey, dynamically shaped by the principles of Perlin Noise. Witness the ecosystem thrive or falter based on your interventions, as you navigate the complex web of life in this captivating virtual world.",
+            "image": "banners/EcoSim.jpg",
+            "tags": [
+                "Unity",
+                "C#",
+                "Blender",
+                "Perlin Noise"
+            ],
+            "link": "https://artyomg.itch.io/ecosim",
+            "playable": false,
+            "embed": ""
+        },
+        {
+            "title": "Reddit to Instagram Bot",
+            "description": "Revolutionize your social media presence with our innovative automated system. Powered by Python and leveraging the Selenium and PRAW libraries, this bot seamlessly bridges the gap between Reddit and Instagram. Say goodbye to manual content sharing and hello to effortless engagement as the bot autonomously curates and shares captivating content from Reddit onto your Instagram feed, elevating your online presence with every post.",
+            "image": "banners/Reddit_to_Instagram_Bot.jpg",
+            "tags": [
+                "Python",
+                "Selenium Webdriver",
+                "PRAW Library"
+            ],
+            "link": "https://replit.com/@ArtyomGabtraupo/Instagram-Bot",
+            "playable": false,
+            "embed": ""
+        },
+
+        {
+            "title": "Hexapawn AI",
+            "description": "Experience the evolution of artificial intelligence with Hexapawn AI. This revolutionary ML-powered system, developed with Unity and C#, learns and adapts to your unique playstyle, offering a challenging and personalized gaming experience. Dive into the timeless strategy of Hexapawn and witness the AI's uncanny ability to anticipate and counter your every move. Explore the boundaries of machine learning as you engage in thrilling matches against an opponent that grows smarter with every encounter.",
+            "image": "banners/Hexapawn_AI.jpg",
+            "tags": [
+                "Unity",
+                "C#",
+                "Machine Learning"
+            ],
+            "link": "https://artyomg.itch.io/chess-but-but-awesome",
+            "playable": true,
+            "embed": "<iframe src='https://i.simmer.io/@TurboKozel/hexapawn-ai' style='width:1000px;height:562px'></iframe>"
+        },
+        {
+            "title": "Pokemon Showdown Minimax AI Bot",
+            "description": "Enter the arena of competitive Pokemon battles with confidence, armed with our advanced Minimax Bot. Developed in Python and integrated with the Showdown API, this AI-driven bot employs a modified minimax algorithm optimized for speed-based fighting systems. Whether you're honing your skills or challenging the elite, unleash the power of strategic AI to dominate the battlefield and claim victory in the fast-paced world of Pokemon Showdown.",
+            "image": "banners/Pokemon_Showdown_Bot.jpg",
+            "tags": [
+                "Python",
+                "Showdown API",
+                "Advanced Algorithms"
+            ],
+            "link": "https://artyomg.itch.io/chess-but-but-awesome",
+            "playable": false,
+            "embed": ""
+        },
+        {
+            "title": "",
+            "description": "",
+            "image": "",
+            "tags": [
+                "",
+                ""
+            ],
+            "link": "",
+            "playable": false,
+            "embed": ""
+        }
+    ]
+}

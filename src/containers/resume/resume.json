@@ -1,0 +1,191 @@
+{
+  "selectedTemplate": 9,
+  "headings": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Awards",
+    "education": "Education"
+  },
+  "basics": {
+    "firstName": "Artyom",
+    "lastName": "Gabtraupov",
+    "email": "admin@artyomg.com",
+    "phoneNumber": "+1 (226) 792-4790",
+    "city": "Waterloo",
+    "province": "ON",
+    "country": "Canada"
+  },
+  "education": [
+    {
+      "university": "University of Guelph",
+      "degree": "Bachelor's",
+      "major": [
+        "Computer Science"
+      ],
+      "minor": [
+        "Math"
+      ],
+      "start": "Sept 2023",
+      "end": "Apr 2027",
+      "country": "Canada",
+      "province": "ON",
+      "city": "Guelph",
+      "ongoing": true,
+      "coop": true,
+      "gpa": 4.0,
+      "averageGrade": 97.4
+    }
+  ],
+  "experience": [
+    {
+      "location": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Python",
+        "C#",
+        "C",
+        "C++",
+        "JavaScript"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Unity",
+        "React",
+        "Tensorflow",
+        "Plastic SCM",
+        "HTML",
+        "CSS",
+        "Unreal Engine"
+      ],
+      "name": "Software Tools"
+    },
+    {
+      "keywords": [
+        "Selenium",
+        "OpenAI API"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "English",
+        "Russian"
+      ],
+      "name": "Languages"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Python",
+        "Tensorflow",
+        "Google Colab",
+        "Machine-Learning                                                        "
+      ],
+      "name": "Mitosis Stage Cell ML Image Sorter",
+      "description": "Machine Learning program capable of sorting images of different mitosis stages of cells"
+    },
+    {
+      "keywords": [
+        "Unity",
+        "C#",
+        "Blender",
+        "Perlin Noise"
+      ],
+      "name": "EcoSim",
+      "description": "Simulation of prey-predator ecosystem in randomly generated 3D terrain",
+      "url": "https://artyomg.itch.io/ecosim"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Selenium",
+        "PRAW Lib"
+      ],
+      "description": "An automated system that posts content from Reddit to Instagram",
+      "url": "https://replit.com/@ArtyomGabtraupo/Instagram-Bot",
+      "name": "Reddit to Instagram Bot"
+    },
+    {
+      "keywords": [
+        "Unity",
+        "C#",
+        "Piskel",
+        "Tilemaps"
+      ],
+      "name": "Tower Defense 2",
+      "description": "An isometric tower defense game with procedural exponential difficulty increase",
+      "url": "https://artyomg.itch.io/tower-defense"
+    },
+    {
+      "keywords": [
+        "Unity",
+        "C#",
+        "Machine-Learning"
+      ],
+      "name": "Hexapawn AI",
+      "description": "Hexapawn AI (ML) that learns and adapts to your personal playstyle",
+      "url": "https://artyomg.itch.io/chess-but-but-awesome"
+    },
+    {
+      "keywords": [
+        "React",
+        "Cybrancee"
+      ],
+      "name": "Photography Commercial Website",
+      "description": "Professional website for personal business",
+      "url": "https://artyomg.com"
+    },
+    {
+      "keywords": [
+        "Python",
+        "Showdown API"
+      ],
+      "name": "Pokemon Showdown Minimax Bot",
+      "description": "An AI bot for Pokemon Showdown based on the minimax algorithm, modified to work speed based fighting system",
+      "url": "https://replit.com/@ArtyomGabtraupo/Pokemon-Showdown-Bot"
+    }
+  ],
+  "awards": [
+    {
+      "date": "2023",
+      "awarder": "University of Waterloo",
+      "title": "Canadian Computer Competition - Senior (20)",
+      "summary": "Achieved 1st place in CCC - Senior at Cameron Heights Collegiate Instituate amongst grade 12 students"
+    },
+    {
+      "title": "Euclid Math Competition (69)",
+      "date": "2023",
+      "awarder": "University of Waterloo",
+      "summary": "Achieved 2nd in Euclid Math Competition at CHCI amongst grade 12 students"
+    },
+    {
+      "date": "2022",
+      "title": "Canadian Computer Competition - Junior (62)",
+      "awarder": "University of Waterloo",
+      "summary": "Achieved 1st in Canadian Computer Competition- Junior at CHCI amongst grade 11 students"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
