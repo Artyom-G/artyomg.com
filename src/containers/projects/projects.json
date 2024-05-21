@@ -1,6 +1,20 @@
 {
     "projects": [
         {
+            "title": "Mitosis Stage Cell ML Image Sorter",
+            "description": "This is a cell image sorter which categorizes pictures based on their mitosis stages, it was built in TensorFlow and Google Colabs. The model allows to be retrained on different image catgories not just cell mitosis, the idea behind this project is to help medical cancer research identity cells that may be developing too quickly.",
+            "image": "banners/ML_Image_Sorter.jpg",
+            "tags": [
+                "Python",
+                "Tensorflow",
+                "Google Colabs",
+                "Machine Learning"
+            ],
+            "link": "https://drive.google.com/file/d/18-1wQcQyEbK7ry8htFwO05ebDA2qyWfj/view?usp=sharing",
+            "playable": false,
+            "embed": "<GistEmbed></GistEmbed>"
+        },
+        {
             "title": "Tower Defense 2",
             "description": "Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense. Originally made in Unity, this project showcases my skills in game engines, object-oriented programming and cloud syncing with Plastic SCM. The game features infinite waves on enemies that exponentially scale in difficulty. Do not let a single enemy through!",
             "image": "banners/Tower_Defense_2.jpg",
@@ -32,22 +46,8 @@
             "embed": "<iframe src='https://photo.artyomg.com' width='1100' height='660' frameborder='0'></iframe>"
         },
         {
-            "title": "Mitosis Stage Cell ML Image Sorter",
-            "description": "Dive into the intricate world of cell biology with our cutting-edge Machine Learning program. This sophisticated tool is designed to meticulously sort images capturing various stages of cell mitosis. Witness the wonder of cellular division through a lens of technological precision as the program accurately categorizes and organizes these images with unparalleled efficiency.",
-            "image": "banners/ML_Image_Sorter.jpg",
-            "tags": [
-                "Python",
-                "Tensorflow",
-                "Google Colabs",
-                "Machine Learning"
-            ],
-            "link": "https://drive.google.com/file/d/18-1wQcQyEbK7ry8htFwO05ebDA2qyWfj/view?usp=sharing",
-            "playable": false,
-            "embed": "<GistEmbed></GistEmbed>"
-        },
-        {
             "title": "EcoSim",
-            "description": "Immerse yourself in the delicate balance of nature with EcoSim, a groundbreaking simulation experience. Crafted using Unity, C#, and Blender, this simulation transports you to a dynamic, ever-evolving ecosystem set within randomly generated 3D terrain. Explore the intricate dance between predator and prey, dynamically shaped by the principles of Perlin Noise. Witness the ecosystem thrive or falter based on your interventions, as you navigate the complex web of life in this captivating virtual world.",
+            "description": "Welcome to an ecological simulator, this purpose of this project is to simulate the advancements of biological species as they grow together and form balanced populations, keeping each other in check. The simulation feautures predator and prey each having through own hunger, thirst and reproductive erge meters.",
             "image": "banners/EcoSim.jpg",
             "tags": [
                 "Unity",
@@ -61,21 +61,23 @@
         },
         {
             "title": "Reddit to Instagram Bot",
-            "description": "Revolutionize your social media presence with our innovative automated system. Powered by Python and leveraging the Selenium and PRAW libraries, this bot seamlessly bridges the gap between Reddit and Instagram. Say goodbye to manual content sharing and hello to effortless engagement as the bot autonomously curates and shares captivating content from Reddit onto your Instagram feed, elevating your online presence with every post.",
+            "description": "Automate your online presence on Instagram with this auto-post bot. The bot is scheduled to post to Instagram on regular time intervals. It stores your future posts in Firebase Storage and is then executed via Google Cloud using PRAW and Instagram APIs.",
             "image": "banners/Reddit_to_Instagram_Bot.jpg",
             "tags": [
                 "Python",
+                "Firebase",
+                "Google Cloud",
                 "Selenium Webdriver",
-                "PRAW Library"
+                "Instagram API",
+                "PRAW"
             ],
             "link": "https://replit.com/@ArtyomGabtraupo/Instagram-Bot",
             "playable": false,
             "embed": ""
         },
-
         {
             "title": "Hexapawn AI",
-            "description": "Experience the evolution of artificial intelligence with Hexapawn AI. This revolutionary ML-powered system, developed with Unity and C#, learns and adapts to your unique playstyle, offering a challenging and personalized gaming experience. Dive into the timeless strategy of Hexapawn and witness the AI's uncanny ability to anticipate and counter your every move. Explore the boundaries of machine learning as you engage in thrilling matches against an opponent that grows smarter with every encounter.",
+            "description": "Initially, this hexapawn bot may seem to be doing random plays but it soons learns your patterns and quickly adapts to your playstyle, just a few games in and the bot has completely learned all the best strategies, good luck getting a win, 10 round in.",
             "image": "banners/Hexapawn_AI.jpg",
             "tags": [
                 "Unity",
@@ -94,18 +96,6 @@
                 "Python",
                 "Showdown API",
                 "Advanced Algorithms"
-            ],
-            "link": "https://artyomg.itch.io/chess-but-but-awesome",
-            "playable": false,
-            "embed": ""
-        },
-        {
-            "title": "",
-            "description": "",
-            "image": "",
-            "tags": [
-                "",
-                ""
             ],
             "link": "",
             "playable": false,
