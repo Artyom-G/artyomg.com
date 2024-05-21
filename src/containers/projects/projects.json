@@ -2,12 +2,13 @@
     "projects": [
         {
             "title": "Tower Defense 2",
-            "description": "Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense adventure that will put your strategic skills to the test!\nIn this captivating game, you find yourself in a vibrant world teeming with diverse landscapes and fantastical creatures. As the guardian of your kingdom, you must defend against relentless waves of enemies hell-bent on infiltrating and wreaking havoc.",
+            "description": "Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense. Originally made in Unity, this project showcases my skills in game engines, object-oriented programming and cloud syncing with Plastic SCM. The game features infinite waves on enemies that exponentially scale in difficulty. Do not let a single enemy through!",
             "image": "banners/Tower_Defense_2.jpg",
             "tags": [
                 "Unity",
                 "Plastic SCM",
                 "C#",
+                "OOP",
                 "Piskel",
                 "Tilemaps"
             ],
@@ -17,13 +18,13 @@
         },
         {
             "title": "Commercial Photography Website",
-            "description": "Elevate your online presence with a sleek and professional website tailored for your photography business. Crafted using React and Cybrancee, this platform showcases your work with stunning visuals and intuitive design. From captivating portfolios to seamless client interaction, this website is your gateway to expanding your reach and solidifying your brand in the competitive world of commercial photography.",
+            "description": "This website was created for my photography business, just like the website you are on right now, it was built using React and hosted via Cybrancee. Includes an email contact form, downloadable content among other features. This website helped me score a handful of clients as a photographer and continues to serve as a great business card to this day.",
             "image": "banners/photo.artyomg.com.jpg",
             "tags": [
                 "React",
                 "Cybrancee",
                 "Plesk",
-                "Email Form",
+                "Email Contact Form",
                 "JavaScript"
             ],
             "link": "https://photo.artyomg.com",
