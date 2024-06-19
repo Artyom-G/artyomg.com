@@ -20,7 +20,15 @@ const Home=()=>{
                     <br/>
                     I am {" "}
                     <ReactTyped
-                        strings={["a Developer", "a Designer", "a Student", "an Enthusiast"]}
+                        strings={[
+                            "a Developer",
+                            "a Designer",
+                            "a Student",
+                            "an Enthusiast",
+                            "a Creator",
+                            "a Learner",
+                            "an Innovator"
+                        ]}
                         typeSpeed={100}
                         loop
                         backSpeed={20}

@@ -11,6 +11,8 @@ import Skills from './containers/skills';
 import Projects from './containers/projects';
 import About from './containers/about';
 import NavBar from './components/navBar';
+import LoadingScreen from './components/loadingScreen';
+import ProjectDetails from './containers/projects/ProjectDetails';
 
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
@@ -19,8 +21,8 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 function App() {
 
   const location = useLocation();
-
   const [init, setInit] = useState(false);
+  const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -29,7 +31,8 @@ function App() {
       // starting from v2 you can add only the features you need reducing the bundle size
       await loadFull(engine);
     }).then(() => {
-      setInit(true);
+      setFadeOut(true); // Start fade-out effect
+      setTimeout(() => setInit(true), 500);
     });
   }, []);
 
@@ -37,17 +40,26 @@ function App() {
     console.log(container);
   };
 
+  if(!init){
+    return(
+      <div className='App'>
+        <LoadingScreen className={fadeOut ? 'fade-out' : ''} />
+      </div>
+    );
+  }
+
   return (
     <div className="App">
       {
-        init && location.pathname === "/" ? <Particles id="tsparticles" options={particles_home} particlesLoaded={particlesLoaded} /> : <></>
+        location.pathname === "/" ? <Particles id="tsparticles" options={particles_home} particlesLoaded={particlesLoaded} /> : <></>
       }
       {
-        init && (location.pathname === "/projects" || location.pathname === "/resume" || location.pathname === "/contact") ? <Particles id="tsparticles" options={particles_projects} particlesLoaded={particlesLoaded} /> : <></>
+        location.pathname === "/projects" || location.pathname === "/resume" || location.pathname === "/contact" ? <Particles id="tsparticles" options={particles_projects} particlesLoaded={particlesLoaded} /> : <></>
       }
 
-      <NavBar />
 
+      <NavBar /> 
+      
       <div className='App__main-page-content'>
         <Routes>
           <Route index path='/' element={<Home />} />
@@ -55,6 +67,7 @@ function App() {
           <Route index path='/resume' element={<Resume />} />
           <Route index path='/skills' element={<Skills />} />
           <Route index path='/projects' element={<Projects />} />
+          <Route path="/projects/:projectTitle" element={<ProjectDetails />} />
           <Route index path='/contact' element={<Contact />} />
         </Routes>
       </div>
