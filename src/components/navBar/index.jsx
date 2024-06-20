@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaReact } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
-import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import './styles.scss';
 import CircleButton from "../circleButton";

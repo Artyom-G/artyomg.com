@@ -10,14 +10,11 @@ const LoadingScreen = () => (
             strings={["Portfolio", "Projects", "Skills Showcase", "Creative Space", "Journey", "Work"]}
             typeSpeed={100}
             loop
-            backSpeed={20}
+            backSpeed={100000}
             cursorChar="|"
             showCursor={true}
         />
     </h1>
-    <p>
-        Please Stand by as the Main Page Loads
-    </p>
   </div>
 );
 

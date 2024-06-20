@@ -43,6 +43,9 @@ const Home=()=>{
                     </span>
                 </button>
             </div>
+            <div className="home__source-code">
+                This is a React.js Website, the Source Code can be Found <a href="https://github.com/Artyom-G/artyomg-com-cs-portfolio" target="_blank" rel="noopener noreferrer">Here</a>
+            </div>
         </div>
     )
 }

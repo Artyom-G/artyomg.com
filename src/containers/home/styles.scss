@@ -34,6 +34,23 @@
             width: 680px;
         }
     }
+
+    &__source-code {
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 30px;
+        text-align: right;
+        font-size: 1.6rem;
+        color: var(--white-color);
+        opacity: 0.4;
+
+        a {
+            color: var(--white-color);
+            text-decoration: underline;
+        }
+    }
 }
 
 @media only screen and (max-width : 550px){

@@ -208,7 +208,9 @@ p {
 //BUTTONS
 button,
 .submit {
-    color: var(--primary-color);
+    //color: var(--primary-color);
+    color: var(--white-color);
+    opacity: 0.6;
     text-decoration: none;
     cursor: pointer;
     outline: none;
@@ -288,6 +290,7 @@ button:after {
 button:hover,
 .submit:hover {
     color: var(--white-color);
+    opacity: 1;
     box-shadow: var(--box-shadow);
     border-radius: 100px;
 }

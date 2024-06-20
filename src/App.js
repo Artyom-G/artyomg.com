@@ -31,8 +31,8 @@ function App() {
       // starting from v2 you can add only the features you need reducing the bundle size
       await loadFull(engine);
     }).then(() => {
-      setFadeOut(true); // Start fade-out effect
-      setTimeout(() => setInit(true), 500);
+      setFadeOut(true);
+      setTimeout(() => setInit(true), 3000);
     });
   }, []);
 

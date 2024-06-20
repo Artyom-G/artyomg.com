@@ -1,13 +1,12 @@
-// src/components/LoadingScreen.scss
 .loading-screen {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--background-color); // Adjust to match your background color
+    background-color: var(--background-color);
     opacity: 1;
-    transition: opacity 0.5s ease-out; // Add transition for opacity
+    transition: opacity 1s ease-out;
   
     &.fade-out {
       opacity: 0;
@@ -25,7 +24,7 @@
   
     p {
       color: var(--white-color);
-      opacity: .6;
+      opacity: 0.6;
       font-size: 1.7rem;
       margin-top: 20px;
       text-align: center;
