@@ -18,7 +18,7 @@
         },
         {
             "title": "Mitosis Stage Cell ML Image Sorter",
-            "description": "This is a cell image sorter which categorizes pictures based on their mitosis stages, it was built in TensorFlow and Google Colabs. The model allows to be retrained on different image catgories not just cell mitosis, the idea behind this project is to help medical cancer research identity cells that may be developing too quickly.",
+            "description": "Solo developed a Deep Learning program capable of sorting images of different mitosis stages of cells.\n\nProgram based on Convolutional Networks.\n\nThis is a cell image sorter which categorizes pictures based on their mitosis stages\n\nIt was built in TensorFlow and Google Colabs. The model allows to be retrained on different image catgories not just cell mitosis\n\nThe idea behind this project is to help medical cancer research identity cells that may be developing too quickly.",
             "image": "banners/ML_Image_Sorter.jpg",
             "tags": [
                 "Python",
@@ -32,7 +32,7 @@
         },
         {
             "title": "Tower Defense 2",
-            "description": "Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense. Originally made in Unity, this project showcases my skills in game engines, object-oriented programming and cloud syncing with Plastic SCM. The game features infinite waves on enemies that exponentially scale in difficulty. Do not let a single enemy through!",
+            "description": "Lead a team of students to develop an isometric tower defense game built in Unity.\n\nWelcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense.\n\nOriginally made in Unity, this project showcases my skills in game engines, object-oriented programming and cloud syncing with Plastic SCM.\n\nThe game features infinite waves on enemies that exponentially scale in difficulty. Do not let a single enemy through!",
             "image": "banners/Tower_Defense_2.jpg",
             "tags": [
                 "Unity",
@@ -48,7 +48,7 @@
         },
         {
             "title": "Commercial Photography Website",
-            "description": "This website was created for my photography business, just like the website you are on right now, it was built using React and hosted via Cybrancee. Includes an email contact form, downloadable content among other features. This website helped me score a handful of clients as a photographer and continues to serve as a great business card to this day.",
+            "description": "This website was created for my photography business, just like the website you are on right now.\n\nIt was built using React.js and hosted via Cybrancee. Includes an email contact form, downloadable content among other features.\n\nThis website helped me score a handful of clients as a photographer and continues to serve as a great business card to this day.",
             "image": "banners/photo.artyomg.com.jpg",
             "tags": [
                 "React",
@@ -63,7 +63,7 @@
         },
         {
             "title": "EcoSim",
-            "description": "Welcome to an ecological simulator, this purpose of this project is to simulate the advancements of biological species as they grow together and form balanced populations, keeping each other in check. The simulation feautures predator and prey each having through own hunger, thirst and reproductive erge meters.",
+            "description": "Welcome to an ecological simulator\n\nThe purpose of this project is to simulate the advancements of biological species as they grow together and form balanced populations, keeping each other in check.\n\nThe simulation feautures predator and prey each having through own hunger, thirst and reproductive erge meters.",
             "image": "banners/EcoSim.jpg",
             "tags": [
                 "Unity",
@@ -77,7 +77,7 @@
         },
         {
             "title": "Reddit to Instagram Bot",
-            "description": "Automate your online presence on Instagram with this auto-post bot. The bot is scheduled to post to Instagram on regular time intervals. It stores your future posts in Firebase Storage and is then executed via Google Cloud using PRAW and Instagram APIs.",
+            "description": "An automated system that performs operations on fixed schedule.\n\nAutomate your online presence on Instagram with this auto-post bot.\n\nThe bot is scheduled to post to Instagram on regular time intervals.\n\nIt stores your future posts in Firebase Storage and is then executed via Google Cloud using PRAW and Instagram APIs.",
             "image": "banners/Reddit_to_Instagram_Bot.jpg",
             "tags": [
                 "Python",
@@ -93,7 +93,7 @@
         },
         {
             "title": "Hexapawn AI",
-            "description": "Initially, this hexapawn bot may seem to be doing random plays but it soons learns your patterns and quickly adapts to your playstyle, just a few games in and the bot has completely learned all the best strategies, good luck getting a win, 10 round in.",
+            "description": "Initially, this hexapawn bot may seem to be doing random plays but it soons learns your patterns and quickly adapts to your playstyle\n\nIt takes just a few games in and the bot has completely learned all the best strategies, good luck getting a win, 10 round in.",
             "image": "banners/Hexapawn_AI.jpg",
             "tags": [
                 "Unity",
@@ -106,7 +106,7 @@
         },
         {
             "title": "Pokemon Showdown Minimax AI Bot",
-            "description": "Enter the arena of competitive Pokemon battles with confidence, armed with our advanced Minimax Bot. Developed in Python and integrated with the Showdown API, this AI-driven bot employs a modified minimax algorithm optimized for speed-based fighting systems. Whether you're honing your skills or challenging the elite, unleash the power of strategic AI to dominate the battlefield and claim victory in the fast-paced world of Pokemon Showdown.",
+            "description": "Enter the arena of competitive Pokemon battles with confidence, armed with our advanced Minimax Bot.\n\nDeveloped in Python and integrated with the Showdown API, this AI-driven bot employs a modified minimax algorithm optimized for speed-based fighting systems.\n\nWhether you're honing your skills or challenging the elite, unleash the power of strategic AI to dominate the battlefield and claim victory in the fast-paced world of Pokemon Showdown.",
             "image": "banners/Pokemon_Showdown_Bot.jpg",
             "tags": [
                 "Python",
