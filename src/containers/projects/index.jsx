@@ -12,7 +12,6 @@ const Projects = () => {
 
     return (
         <div className="projects">
-            <h1>My Projects</h1>
             <div className="projects__grid">
                 {projectsData.projects.map((project, index) => (
                     <div 
@@ -20,9 +19,8 @@ const Projects = () => {
                         className="projects__card"
                         onClick={() => handleProjectClick(project)}
                     >
-                        <img src={project.image} alt={project.title} />
+                        <img src={require(`./${project.image}`)} alt={project.title}/>
                         <h2>{project.title}</h2>
-                        <p>{project.description.split('\n')[0]}</p>
                     </div>
                 ))}
             </div>

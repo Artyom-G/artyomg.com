@@ -12,7 +12,7 @@ import Projects from './containers/projects';
 import About from './containers/about';
 import NavBar from './components/navBar';
 import LoadingScreen from './components/loadingScreen';
-import ProjectDetails from './containers/projects/ProjectDetails';
+import ProjectDetails from './containers/projects/projectDetails';
 
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
@@ -54,7 +54,7 @@ function App() {
         location.pathname === "/" ? <Particles id="tsparticles" options={particles_home} particlesLoaded={particlesLoaded} /> : <></>
       }
       {
-        location.pathname === "/projects" || location.pathname === "/resume" || location.pathname === "/contact" ? <Particles id="tsparticles" options={particles_projects} particlesLoaded={particlesLoaded} /> : <></>
+        location.pathname != "/" ? <Particles id="tsparticles" options={particles_projects} particlesLoaded={particlesLoaded} /> : <></>
       }
 
 
