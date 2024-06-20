@@ -1,7 +1,6 @@
 import React from "react";
 import './styles.scss';
 import { useNavigate } from "react-router-dom";
-import { Animate } from 'react-simple-animate';
 import { ReactTyped } from "react-typed";
 
 const Home=()=>{
@@ -41,7 +40,6 @@ const Home=()=>{
                 <button onClick={handleNavingateToContactMePage}>
                     <span className="contact-button">
                         Send Me a Message
-
                     </span>
                 </button>
             </div>

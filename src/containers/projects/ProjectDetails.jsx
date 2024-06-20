@@ -3,22 +3,19 @@ import { useLocation } from "react-router-dom";
 import './projectDetails.scss';
 import CircleButton from "../../components/circleButton";
 import ArrowSVG from "./arrow.svg"
+import { Link } from 'react-router-dom';
 
 const ProjectDetails = () => {
     const location = useLocation();
     const { project } = location.state || {};
 
-    const togglePointerEvents = () => {
-        const iframe = document.querySelector('.projects__item__embed__overlay');
-        iframe.style.height = "0px";
-    }
-
+    
     if (!project) {
         return <div>Project not found</div>;
     }
-
+    
     const description = project.description.replace(/\n/g, '<br />');
-
+    
     return(
         <>
             <div className="projects__item">
@@ -51,14 +48,22 @@ const ProjectDetails = () => {
                 <div className="projects__item__description">
                     <p dangerouslySetInnerHTML={{ __html: description }} />
                 </div>
-                <div className="projects__item__embed">
-                    {
-                        project.playable ? <div dangerouslySetInnerHTML={{ __html: project.embed }} /> : <></>
-                    }
-                    <div className="projects__item__embed__overlay" onClick={togglePointerEvents}></div>
-                </div>
+                {
+                    project.playable ? 
+                        <div className="projects__item__embed">
+                            <div dangerouslySetInnerHTML={{ __html: project.embed }} />
+                        </div>
+                        :
+                        <></>
+                }
                 
-
+                <Link to={project.link} className="projects__item__visit">
+                    <button>
+                        <span className="projects__item__visit__span">
+                            See More on the Project
+                        </span>
+                    </button>
+                </Link>
             </div>
         </>
     )
