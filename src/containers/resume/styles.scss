@@ -2,20 +2,103 @@
     position: relative;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 150px;
 
     &__resumePdf{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 20%;
-        padding-right: 20%;
-        padding-top: 150px;
+        padding: 10px;
+        width: 1200px;
+        height: 1000px;
+        border-radius: 20px;
+        transition: transform 0.3s, border-color 0.3s; 
+        border: 4px solid transparent; 
+        transform: scale(0.985);
 
         embed {
             width: 100%;
             height: 100%;
-            border-radius: 20px;
+            border-radius: 10px;
+            filter: brightness(70%) blur(0.5px);
+        }
+        &:hover {
+            transform: scale(1);
+            border-color: var(--primary-color);
+        }
+
+        &:hover embed {
+            filter: brightness(95%);
+        }
+    }
+}
+
+@media only screen and (max-width : 550px){
+
+    .page{
+
+        &__resumePdf{
+            width: 300px;
+            transform: scale(1);
+            border: 4px solid var(--primary-color); 
+
+            embed{
+
+                filter: brightness(95%);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 551px) and (max-width: 758px){
+
+    .page{
+
+        &__resumePdf{
+            width: 400px;
+            transform: scale(1);
+            border: 4px solid var(--primary-color); 
+
+            embed{
+
+                filter: brightness(95%);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 759px) and (max-width : 1100px){
+    
+    .page{
+
+        &__resumePdf{
+            width: 600px;
+            transform: scale(1);
+            border: 4px solid var(--primary-color); 
+
+            embed{
+
+                filter: brightness(95%);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 1101px) and (max-width : 1300px){
+    
+    .page{
+
+        &__resumePdf{
+            width: 900px;
+            transform: scale(1);
+            border: 4px solid var(--primary-color); 
+
+            embed{
+
+                filter: brightness(95%);
+            }
         }
     }
 }
