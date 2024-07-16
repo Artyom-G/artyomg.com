@@ -58,7 +58,7 @@
     .home{
         &__text-wrapper{
             h1{
-                font-size: 3rem;
+                font-size: 4rem;
                 line-height: 5rem;
             }
         }
@@ -66,8 +66,14 @@
         &__contact-me{
     
             button{
-                width: 280px;
+                width: 360px;
+                font-size: 1.1rem;
             }
+        }
+
+        &__source-code {
+            font-size: 1.4rem;
+
         }
     }
     

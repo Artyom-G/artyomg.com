@@ -234,7 +234,7 @@ const particles = {
             },
             random: false,
             size: false,
-            speed: 0.5,
+            speed: 3,
             spin: {
                 acceleration: 0,
                 enable: false

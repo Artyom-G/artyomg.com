@@ -61,3 +61,21 @@
         }
     }
 }
+
+@media only screen and (max-width: 1000px){
+
+    .projects{
+
+        &__grid{
+
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        &__card {
+    
+            img {
+                filter: brightness(90%);
+            }
+        }
+    }
+}

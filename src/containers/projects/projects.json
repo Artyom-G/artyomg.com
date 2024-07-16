@@ -47,6 +47,20 @@
             "embed": "<iframe src='https://i.simmer.io/@TurboKozel/tower-defense-2' width='1100' height='660' frameborder='0' scrolling='no'></iframe>"
         },
         {
+            "title": "willchai.com",
+            "description": "Was commissioned to create a custom portfolio website for a McMaster Health Science Student.\n\nUsed Git and GitHub to collaboratively contribute to the custom React.js Website.\n\nJust like the site you are on right now, this website supports desktop, tablet and mobile displays.",
+            "image": "banners/willchai.com.jpg",
+            "tags": [
+                "React",
+                "Cybrancee",
+                "Plesk",
+                "JavaScript"
+            ],
+            "link": "https://github.com/Artyom-G/willchai.com",
+            "playable": true,
+            "embed": "<iframe src='https://willchai.com' width='1400' height='800' frameborder='0'></iframe>"
+        },
+        {
             "title": "Commercial Photography Website",
             "description": "This website was created for my photography business, just like the website you are on right now.\n\nIt was built using React.js and hosted via Cybrancee. Includes an email contact form, downloadable content among other features.\n\nThis website helped me score a handful of clients as a photographer and continues to serve as a great business card to this day.",
             "image": "banners/photo.artyomg.com.jpg",
