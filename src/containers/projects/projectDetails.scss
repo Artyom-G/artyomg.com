@@ -33,8 +33,9 @@
                 width: 100%;
                 height: 100%;
                 display: block;
+                object-fit: cover;
                 opacity: 100%;
-                filter: blur(1px) brightness(80%);
+                filter: blur(0px) brightness(80%);
                 //box-shadow: inset 0px -400px 66px #000; //WARNING: THIS PUTS THE INNER SHADOW BELOW THE IMAGE LOL
                 border-radius: 20px;
                 
@@ -48,7 +49,7 @@
             box-shadow: none;
             background-color: transparent;
             //background-color: rgba(var(--navigation-bar-color) 0.5);
-            height: 80px;
+            min-height: 80px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -63,9 +64,11 @@
             &__tags{
                 justify-content: left;
                 display: flex;
+                flex-wrap: wrap;
                 list-style: none;
                 &__tag{
                     padding-right: 30px;
+                    margin-top: 10px;
                     
                     div{
                         width: 100%;
@@ -97,6 +100,7 @@
                 display: flex;
                 align-items: center;
                 flex: 1;
+                margin-left: 50px;
                 
             }
 
@@ -129,23 +133,27 @@
             padding-top: 150px;
             justify-content: center;
             display: flex;
+            flex-direction: column;
             align-items: center;
             overflow: hidden;
 
             iframe{
                 border-radius: 20px;
                 border: none;
-            
             }
 
-            &__overlay {
-                position: absolute;
-                width: 0px;
-                height: 0px;
-                pointer-events: auto; 
-                //background: #0838299c; 
-                z-index: 1; 
+            &__bigger-display-message{
+                display: none;
+                padding-top: 350px;
+                padding-bottom: 330px;
+                padding-left: 10%;
+                padding-right: 10%;
+                border: 4px solid var(--primary-color);
                 border-radius: 20px;
+
+                p{
+                    text-align: center;
+                }
             }
         }
 
@@ -222,4 +230,196 @@
     width: 100px;
     height: 100px;
 
+}
+
+@media only screen and (max-width: 750px){
+    .projects {
+        
+        &__item {
+            padding-top: 0px;
+            
+            &__banner {
+                padding-left: 0%;
+                padding-right: 0%;
+                height: 400px;
+
+                h1 {
+                    font-size: 32pt;
+                }
+                
+                img{
+                    border-radius: 0px;
+                }
+            } 
+
+            &__info{
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+
+            &__description{ 
+                margin-left: 5%;
+                margin-right: 5%;
+                border: none;
+
+                p{
+                    font-size: 11pt;
+                    line-height: 3.2rem;
+                    word-spacing: normal;
+                }
+            }
+
+            &__embed{
+                padding-top: 100px;
+    
+                iframe{
+                    display: none;
+                }
+    
+                &__bigger-display-message{
+                    display: block;
+                    padding-top: 150px;
+                    padding-bottom: 130px;
+                    width: 100%;
+                    border-width: 4px 0px 4px 0px;
+                    border-radius: 0px;
+    
+                    p{
+                        font-size: 10pt;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 751px) and (max-width: 1000px){
+    .projects {
+
+        &__item {
+            
+            &__banner {
+                padding-left: 10%;
+                padding-right: 10%;
+                height: 400px;
+
+                h1 {
+                    font-size: 40pt;
+                }
+            } 
+
+            &__info{
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+
+            &__description{ 
+                margin-left: 10%;
+                margin-right: 10%;
+                border: none;
+
+                p{
+                    font-size: 2rem;
+                    line-height: 3.2rem;
+                    word-spacing: 1.1rem;
+                }
+            }
+
+            &__embed{
+                padding-top: 100px;
+                width: 100%;
+                padding-left: 10%;
+                padding-right: 10%;
+    
+                iframe{
+                    display: none;
+                }
+    
+                &__bigger-display-message{
+                    display: block;
+                    padding-top: 200px;
+                    padding-bottom: 180px;
+                    width: 100%;
+    
+                    p{
+                        font-size: 10pt;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 1001px) and (max-width: 1250px){
+    .projects {
+        &__item {
+            
+            &__banner {
+                height: 500px;
+
+                h1 {
+                    font-size: 48pt;
+                }
+            }
+    
+            &__info{
+                
+                &__tags{
+                    
+                    &__tag{
+                        
+                        div{
+                            
+                        }
+                        
+                        p{
+                            
+                        }
+                    }
+                }
+                
+                &__link{
+                    
+                }
+    
+            }
+    
+            &__description{
+                
+                p{
+                    
+                }
+            }
+    
+            &__embed{
+                padding-top: 100px;
+                width: 100%;
+                padding-left: 20%;
+                padding-right: 20%;
+    
+                iframe{
+                    display: none;
+                }
+    
+                &__bigger-display-message{
+                    display: block;
+                    padding-top: 200px;
+                    padding-bottom: 180px;
+                    width: 100%;
+    
+                    p{
+                        font-size: 10pt;
+                    }
+                }
+            }
+    
+            &__visit{
+                
+                button{
+                    
+                }
+            }
+            
+        }
+    }
 }

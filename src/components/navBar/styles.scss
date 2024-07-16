@@ -103,7 +103,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .navbar__container__menu {
         display: flex;
         flex-direction: column;
@@ -120,18 +120,20 @@
         gap: 10px;
 
         &.active {
-            background: var(--black-color);
+            background: var(--navigation-bar-color);
             left: 0px;
-            opacity: 0.9;
+            filter: brightness(60%);
+            opacity: 1;
+            
         }
 
         &__item {
-            border-bottom: 1px solid var(--black-color);
+            border-bottom: 1px solid var(--navigation-bar-color);
             margin: 0px;
             padding: 20px 0px;
         }
     }
-
+    
     .nav-icon {
         display: block;
         cursor: pointer;
