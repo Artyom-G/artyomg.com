@@ -55,25 +55,58 @@
 
 @media only screen and (max-width : 550px){
 
-    .home__text-wrapper h1{
-        font-size: 3rem;
-        line-height: 5rem;
+    .home{
+        &__text-wrapper{
+            h1{
+                font-size: 3rem;
+                line-height: 5rem;
+            }
+        }
+
+        &__contact-me{
+    
+            button{
+                width: 280px;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (min-width : 551px) and (max-width: 758px){
+    .home{
+        &__text-wrapper{
+            h1{
+                font-size: 4rem;
+                line-height: 6rem;
+            }
+        }
+
+        &__contact-me{
+    
+            button{
+                width: 400px;
+            }
+        }
     }
 
 }
 
-@media only screen and (min-width : 551px) and (max-width: 758){
+@media only screen and (min-width : 759px) and (max-width : 990px){
+    
+    .home{
+        &__text-wrapper{
+            h1{
+                font-size: 6rem;
+                line-height: 8rem;
+            }
+        }
 
-    .home__text-wrapper h1{
-        font-size: 4rem;
-        line-height: 6rem;
-    }
-
-}
-
-@media only screen and (min-width : 769px) and (max-width : 990px){
-    .home__text-wrapper h1{
-        font-size: 6rem;
-        line-height: 8rem;
+        &__contact-me{
+    
+            button{
+                width: 560px;
+            }
+        }
     }
 }

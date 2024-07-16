@@ -32,7 +32,7 @@ function App() {
       await loadFull(engine);
     }).then(() => {
       setFadeOut(true);
-      setTimeout(() => setInit(false), 3000);
+      setTimeout(() => setInit(true), 1000);
     });
   }, []);
 

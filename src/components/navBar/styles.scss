@@ -5,7 +5,6 @@
     padding-right: 10%;
     box-shadow: none;
     background-color: transparent;
-    //background-color: rgba(var(--navigation-bar-color) 0.5);
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -17,21 +16,18 @@
     width: 100%;
     top: 0;
     z-index: 10;
-    //width: 80%;
 
     &__container {
         padding-top: 10px;
         display: flex;
         align-items: center;
         width: 100%;
-        //padding: 0px 20px;
         flex: 1;
 
         &__menu {
             margin-top: 10px;
             backdrop-filter: blur(10px);
             border-radius: 100px;
-            //background-color: rgba(var(--navigation-bar-color) 0.5);
             background-color: var(--navigation-bar-color);
             padding-top: 10px;
             padding-bottom: 10px;
@@ -42,8 +38,6 @@
             display: flex;
             list-style: none;
             text-align: center;
-            //padding-right: 10%;
-
 
             &__item {
                 line-height: 40px;
@@ -78,28 +72,23 @@
 
             &__contact {
 
-
                 button {
-
-                    //box-shadow: var(--box-shadow-dimensions) var(--navigation-bar-shadow-color);
                     box-shadow: none;
-                    opacity: 1;
+                    opacity: 0.8;
                 }
 
                 span {
                     color: var(--navigation-bar-text-color);
                 }
 
-                //button:hover {
-                    //box-shadow: var(--box-shadow-dimensions) var(--navigation-bar-shadow-color);
-                //}
-
                 button:hover:before {
                     border-color: var(--navigation-bar-text-color);
+                    opacity: 1;
                 }
 
                 button:hover:after {
                     border-color: var(--navigation-bar-text-color);
+                    opacity: 1;
                 }
             }
 
@@ -114,7 +103,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .navbar__container__menu {
         display: flex;
         flex-direction: column;
@@ -126,11 +115,14 @@
         left: -110%;
         opacity: 1;
         transition: all 0.5s ease;
+        margin-top: 40px;
+        border-radius: 0px;
+        gap: 10px;
 
         &.active {
             background: var(--black-color);
             left: 0px;
-            opacity: 1;
+            opacity: 0.9;
         }
 
         &__item {

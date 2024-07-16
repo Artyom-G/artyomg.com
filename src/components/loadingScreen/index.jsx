@@ -16,7 +16,10 @@ const LoadingScreen = () => (
             showCursor={true}
         />
     </h1>
-    <BounceLoader color={"#ffffff"} size={50} />
+    <h2>
+        the site is loading, please stand by
+    </h2>
+    <BounceLoader className="loading-screen__loader" color={"#ffffff"} size={50} />
   </div>
 );
 
