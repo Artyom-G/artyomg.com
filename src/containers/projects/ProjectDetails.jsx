@@ -53,7 +53,7 @@ const ProjectDetails = () => {
                         <div className="projects__item__embed">
                             <div dangerouslySetInnerHTML={{ __html: project.embed }} />
                             <div className="projects__item__embed__bigger-display-message">
-                                <p>This Website Has an Iteractive Element, Please Use a Bigger Screen</p>
+                                <p>This Page Has an Iteractive Element, Please Use a Bigger Screen</p>
                             </div>
                         </div>
                         :
