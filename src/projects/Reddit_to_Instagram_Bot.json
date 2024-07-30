@@ -1,6 +1,6 @@
 {
     "title": "Reddit to Instagram Bot",
-    "label":"Bot",
+    "filters":["Bot"],
     "priority": "170",
     "tags": [
         "Python",

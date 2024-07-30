@@ -1,6 +1,6 @@
 {
     "title": "willchai.com",
-    "label":"WebDev",
+    "filters":["Featured", "WebDev"],
     "priority": "140",
     "tags": [
         "React.js",

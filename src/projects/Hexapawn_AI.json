@@ -1,6 +1,6 @@
 {
     "title": "Hexapawn AI",
-    "label":"ML",
+    "filters":["AI"],
     "priority": "180",
     "tags": [
         "Unity",

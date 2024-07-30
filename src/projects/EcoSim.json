@@ -1,7 +1,6 @@
 {
     "title": "EcoSim",
-    "thumbnail" : "EcoSim.jpg",
-    "label":"GameDev",
+    "filters":["GameDev"],
     "priority": "160",
     "tags": [
         "Unity",

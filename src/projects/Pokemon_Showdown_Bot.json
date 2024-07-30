@@ -1,6 +1,6 @@
 {
     "title": "Pokemon Showdown Bot",
-    "label":"Bot",
+    "filters":["Bot"],
     "priority": "190",
     "tags": [
         "Python",

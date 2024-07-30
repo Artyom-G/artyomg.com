@@ -1,6 +1,6 @@
 {
     "title": "Mitosis Stage Cell ML Image Sorter",
-    "label":"ML",
+    "filters":["Featured", "AI"],
     "priority": "120",
     "tags": [
         "Python",

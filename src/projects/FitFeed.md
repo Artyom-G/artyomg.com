@@ -34,4 +34,4 @@ I am currently leading the development of FitFeed, focusing on both frontend and
 **Project Management:** Overseeing the entire development process, from planning and design to implementation and testing, ensuring the project stays on track and meets its goals.
 
 # Source Code
-The project is still in development, and the source code is available on GitHub for those interested in following its progress or contributing.
+The project is still in development, and the [source code](https://github.com/Artyom-G/FitFeed) is available on GitHub for those interested in following its progress or contributing.

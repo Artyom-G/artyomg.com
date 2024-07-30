@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import './Projects.scss';
+
+const filterOptions = ["All", "Featured", "WebDev", "Mobile", "GameDev", "AI", "Bot"];
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+    const [filter, setFilter] = useState("All");
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -29,10 +32,25 @@ const Projects = () => {
         navigate(`/projects/${project.title.replace(/\s+/g, '-').toLowerCase()}`, { state: { project } });
     };
 
+    const filteredProjects = filter === "All"
+        ? projects
+        : projects.filter(project => project.filters.includes(filter));
+
     return (
         <div className="projects">
+            <div className="projects__filters">
+                {filterOptions.map(option => (
+                    <button 
+                        key={option} 
+                        className={`projects__filters__filter ${filter === option ? 'active' : ''}`}
+                        onClick={() => setFilter(option)}
+                    >
+                        {option}
+                    </button>
+                ))}
+            </div>
             <div className="projects__grid">
-                {projects.map((project, index) => (
+                {filteredProjects.map((project, index) => (
                     <div 
                         key={index} 
                         className="projects__card"

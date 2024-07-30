@@ -1,7 +1,6 @@
 {
     "title": "FitFeed",
-    "thumbnail" : "FitFeed.png",
-    "label":"Mobile",
+    "filters":["Featured", "Mobile"],
     "priority": "110",
     "tags": [
         "React Native",

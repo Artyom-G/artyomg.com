@@ -9,6 +9,32 @@
         margin-bottom: 20px;
     }
 
+    &__filters {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+
+        &__filter {
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &.active {
+                background-color: var(--white-color);
+                color: var(--primary-color);
+            }
+
+            &:hover:not(.active) {
+                background-color: brightness(var(--primary-color), 90%);
+            }
+        }
+    }
+
     &__grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -22,8 +48,8 @@
         overflow: hidden;
         border-radius: 10px;
         cursor: pointer;
-        transition: transform 0.3s, border-color 0.3s; 
-        border: 4px solid transparent; 
+        transition: transform 0.3s, border-color 0.3s;
+        border: 4px solid transparent;
         padding: 10px;
 
         &:hover {
@@ -62,17 +88,13 @@
     }
 }
 
-@media only screen and (max-width: 1000px){
-
-    .projects{
-
-        &__grid{
-
+@media only screen and (max-width: 1000px) {
+    .projects {
+        &__grid {
             grid-template-columns: repeat(1, 1fr);
         }
 
         &__card {
-    
             img {
                 filter: brightness(90%);
             }

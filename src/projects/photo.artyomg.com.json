@@ -1,6 +1,6 @@
 {
     "title": "Commercial Photography Website",
-    "label":"WebDev",
+    "filters":["Featured", "WebDev"],
     "priority": "150",
     "tags": [
         "React.js",

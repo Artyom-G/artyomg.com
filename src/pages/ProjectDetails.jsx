@@ -37,18 +37,16 @@ const ProjectDetails = () => {
             </div>
 
             <div className="projects__item__info">
-                <ul className="projects__item__info__tags">
-                    {
-                        project.tags.map((tag, index) => (
-                            <li key={index} className="projects__item__info__tags__tag">
-                                <div>
-                                    <p>{tag}</p>
-                                </div>
-                                
-                            </li>
-                        ))
-                    }
-                </ul>
+                <div className="projects__item__info__tags">
+                    {project.tags.map(option => (
+                        <button 
+                            key={option} 
+                            className={`projects__item__info__tags__tag`}
+                        >
+                            {option}
+                        </button>
+                    ))}
+                </div>
                 <div className="projects__item__info__link">
                     <CircleButton link={project.link} logoSrc={ArrowSVG}/>
                 </div>
