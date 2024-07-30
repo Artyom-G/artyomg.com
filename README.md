@@ -5,7 +5,8 @@ Make sure you have node.js and git installed
 Pull the repo
 ```
 git init
-git remote add origin main 
+git remote add origin https://github.com/Artyom-G/artyomg.com.git
+git branch -M main
 git pull --allow-unrelated-histories origin main
 ```
 
