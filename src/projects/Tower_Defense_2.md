@@ -1,11 +1,29 @@
-Lead a team of students to develop an isometric tower defense game built in Unity.
+# Project Overview
 
-Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense.
+I led a team of students to develop an isometric tower defense game built in Unity. Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense game that showcases my skills in game engines, object-oriented programming, and cloud syncing with Plastic SCM.
 
-Originally made in Unity, this project showcases my skills in game engines, object-oriented programming and cloud syncing with Plastic SCM.
+# Technologies Used
 
-The game features infinite waves on enemies that exponentially scale in difficulty. Do not let a single enemy through!
+**Unity:** Game engine for collion detection, runtime rendering and physics.
+
+**Plastic SCM:** For version control and cloud syncing, ensuring smooth collaboration within the team.
+
+**OOP:** Used Object Oriented Programming structures to create the game logic. 
 
 <div>
 <embed src='https://i.simmer.io/@TurboKozel/tower-defense-2' width='1100' height='660'></embed>
 </div>
+
+# Key Features
+
+**Infinite Waves:** Players face infinite waves of enemies that exponentially scale in difficulty, challenging their strategic thinking and reflexes.
+
+# My Contribution
+
+**Team Leadership:** Guided a team of students, assigning tasks, and ensuring project milestones were met on time.
+
+**Frontend Development:** Designed and implemented the user interface and game mechanics using Unity, ensuring a seamless and engaging player experience.
+
+**Backend Development:** Developed backend logic for enemy waves, tower placement, and game progression.
+
+**Version Control:** Managed version control and cloud syncing using Plastic SCM, facilitating smooth collaboration and code integration.
