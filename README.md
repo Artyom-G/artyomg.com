@@ -15,6 +15,9 @@ Once the repo is pulled install all the packages
 npm install
 ```
 
+# Set Up Env
+In the root folder there is a .env.example file, populate it with keys and IDs from EmailJs and rename it to .env
+
 # Starting the Server
 To start a local server
 ```
