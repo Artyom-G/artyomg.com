@@ -14,10 +14,9 @@ export const MarkdownCustom = ({ content }) => {
                 components={{
                     youtube: ({ embedid }) => <YouTubeEmbed embedId={embedid} />,
                     picture: ({ src, alt }) => <ImageEmbed src={src} alt={alt} />,
-                    embed: ({ src, width, height }) => <IFrameEmbed src={src} width={width} height={height} />,
-                    p: 'span'
+                    embed: ({ src, width, height }) => <IFrameEmbed src={src} width={width} height={height} />
                 }}
-                disallowedElements={['div']}
+                disallowedElements={[]}
                 unwrapDisallowed={true}
             >
                 {content}
