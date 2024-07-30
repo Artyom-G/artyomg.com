@@ -1,102 +1,124 @@
 .md {
-  margin-top: 50px;
+    margin-top: 50px;
 
-  h1, h2, h3, span, p, li {
-    padding-left: 20%;
-    padding-right: 20%;
-    margin: 0 auto;
-    text-align: justify;
-  }
+    h1,
+    h2,
+    h3,
+    span,
+    p,
+    li {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin: 0 auto;
+        text-align: justify;
+    }
 
-  h1 {
-    padding-top: 100px;
-    padding-bottom: 30px;
-    font-size: 20pt;
-    font-family: 'Times New Roman', serif;
-    color: var(--white-color);
-    font-weight: bold;
-  }
+    h1 {
+        padding-top: 100px;
+        padding-bottom: 30px;
+        font-size: 20pt;
+        font-family: 'Times New Roman', serif;
+        color: var(--white-color);
+        font-weight: bold;
+    }
 
-  h2 {
-    padding-top: 40px;
-    padding-bottom: 15px;
-    font-size: 20pt;
-    font-family: 'Times New Roman', serif;
-    color: var(--white-color);
-    font-weight: bold;
-  }
+    h2 {
+        padding-top: 40px;
+        padding-bottom: 15px;
+        font-size: 20pt;
+        font-family: 'Times New Roman', serif;
+        color: var(--white-color);
+        font-weight: bold;
+    }
 
-  h3 {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 18pt;
-    font-family: 'Times New Roman', serif;
-    color: var(--white-color);
-    font-weight: bold;
-  }
+    h3 {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 18pt;
+        font-family: 'Times New Roman', serif;
+        color: var(--white-color);
+        font-weight: bold;
+    }
 
-  span, p, li {
-    padding-bottom: 10px;
-    font-size: 14pt;
-    word-spacing: 4px;
-    letter-spacing: 0.5px;
-    line-height: 2;
-    font-family: 'Arial', sans-serif;
-    text-align: justify;
-    color: var(--projects-text-color);
-  }
+    span,
+    p,
+    li {
+        padding-bottom: 10px;
+        font-size: 14pt;
+        word-spacing: 4px;
+        letter-spacing: 0.5px;
+        line-height: 2;
+        font-family: 'Arial', sans-serif;
+        text-align: justify;
+        color: var(--projects-text-color);
+    }
 }
 
 @media only screen and (max-width: 750px) {
-  .md {
-    padding: 0 5%;
+    .md {
+        padding: 0 5%;
 
-    h1, h2, h3, span, p, li {
-      padding-left: 5%;
-      padding-right: 5%;
-      text-align: justify;
-    }
+        h1,
+        h2,
+        h3,
+        span,
+        p,
+        li {
+            padding-left: 5%;
+            padding-right: 5%;
+            text-align: justify;
+        }
 
-    p {
-      font-size: 12pt;
-      line-height: 1.8;
-      word-spacing: normal;
+        p {
+            font-size: 12pt;
+            line-height: 1.8;
+            word-spacing: normal;
+        }
     }
-  }
 }
 
 @media only screen and (min-width: 751px) and (max-width: 1000px) {
-  .md {
-    padding: 0 10%;
+    .md {
+        padding: 0 10%;
 
-    h1, h2, h3, span, p, li {
-      padding-left: 10%;
-      padding-right: 10%;
-      text-align: justify;
-    }
+        h1,
+        h2,
+        h3,
+        span,
+        p,
+        li {
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: justify;
+        }
 
-    p {
-      font-size: 13pt;
-      line-height: 1.8;
-      word-spacing: 1.1rem;
+        p {
+            font-size: 13pt;
+            line-height: 1.8;
+            word-spacing: 1.1rem;
+        }
     }
-  }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1250px) {
-  .md {
-    padding: 0 12%;
+    .md {
+        padding: 0 12%;
 
-    h1, h2, h3, span, p, li {
-      padding-left: 12%;
-      padding-right: 12%;
-      text-align: justify;
-    }
+        h1,
+        h2,
+        h3,
+        span,
+        p,
+        li {
+            padding-left: 12%;
+            padding-right: 12%;
+            text-align: justify;
+        }
 
-    p {
-      font-size: 13pt;
-      line-height: 1.8;
-      word-spacing: 1.1rem;
+        p {
+            font-size: 13pt;
+            line-height: 1.8;
+            word-spacing: 1.1rem;
+        }
     }
-  }
 }

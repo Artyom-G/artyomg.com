@@ -1,9 +1,46 @@
 .youtube-embed {
-    width: 100%;
+    width: 800px;
     max-width: 800px;
-    margin: 2rem auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
 
     iframe {
         border: none;
+        width: 700px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .youtube-embed{
+        padding-left: 5%;
+
+        iframe{
+            width: 350px;
+            height: 260px;
+        }
+    }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1000px) {
+    .youtube-embed{
+        padding-left: 10%;
+        
+        iframe{
+            width: 560px;
+            height: 315px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1250px) {
+    .youtube-embed{
+        padding-left: 12%;
+
+        iframe{
+            width: 560px;
+            height: 315px;
+        }
     }
 }

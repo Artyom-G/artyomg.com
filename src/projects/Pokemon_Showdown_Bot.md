@@ -13,6 +13,10 @@ Enter the arena of competitive Pokemon battles with confidence, armed with our a
 
 **Node.js**: for server hosting
 
+<div>
+<youtube embedId="GRp3h89At-o">
+</div>
+
 
 # My Contribution
 
@@ -22,7 +26,3 @@ Enter the arena of competitive Pokemon battles with confidence, armed with our a
 
 **Performance Optimization:** Focused on ensuring the bot operates efficiently in real-time battle scenarios, maintaining a competitive edge.
 Experience the Power of AI
-
-<div>
-<youtube embedId="GRp3h89At-o">
-</div>
