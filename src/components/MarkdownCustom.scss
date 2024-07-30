@@ -1,8 +1,12 @@
 .md {
     margin-top: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    h1, h2, h3, span, p, li{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 
     h1 {
         padding-top: 100px;
@@ -21,7 +25,7 @@
     span,
     p,
     li {
-        padding: 20px;
+        padding-bottom: 30px;
         font-size: 14pt;
         word-spacing: 9px;
         letter-spacing: 1.5px;
@@ -40,6 +44,11 @@
         margin-right: 5%;
         border: none;
 
+        h1, h2, h3, span, p, li{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
         p {
             font-size: 11pt;
             line-height: 3.2rem;
@@ -54,6 +63,11 @@
         margin-left: 10%;
         margin-right: 10%;
         border: none;
+
+        h1, h2, h3, span, p, li{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
 
         p {
             font-size: 12pt;
