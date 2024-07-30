@@ -1,0 +1,12 @@
+{
+    "title": "Scattered Letters",
+    "filters":["Featured", "GameDev"],
+    "priority": "145",
+    "tags": [
+        "Unity",
+        "C#",
+        "OOP",
+        "Plastic SCM"
+    ],
+    "link": "https://artyomg.itch.io/scattered-letters"
+}
