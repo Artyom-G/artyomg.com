@@ -24,7 +24,7 @@ const ProjectDetails = () => {
             }
         };
         fetchContent();
-    }, [name]);
+    }, []);
     
     if (!project) {
         return <div>Project not found</div>;

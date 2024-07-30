@@ -2,5 +2,14 @@
     "title": "Tower Defense 2",
     "thumbnail": "Tower_Defense_2.jpg",
     "label":"GameDev",
-    "priority": "130"
+    "priority": "130",
+    "tags": [
+        "Unity",
+        "Plastic SCM",
+        "C#",
+        "OOP",
+        "Piskel",
+        "Tilemaps"
+    ],
+    "link": "https://artyomg.itch.io/tower-defense"
 }

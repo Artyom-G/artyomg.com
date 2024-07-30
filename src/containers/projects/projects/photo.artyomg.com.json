@@ -1,5 +1,13 @@
 {
     "title": "Commercial Photography Website",
     "label":"WebDev",
-    "priority": "150"
+    "priority": "150",
+    "tags": [
+        "React",
+        "Cybrancee",
+        "Plesk",
+        "Email Contact Form",
+        "JavaScript"
+    ],
+    "link": "https://photo.artyomg.com"
 }

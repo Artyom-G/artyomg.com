@@ -1,5 +1,11 @@
 {
     "title": "Pokemon Showdown Bot",
     "label":"Bot",
-    "priority": "190"
+    "priority": "190",
+    "tags": [
+        "Python",
+        "Showdown API",
+        "Advanced Algorithms"
+    ],
+    "link": ""
 }
