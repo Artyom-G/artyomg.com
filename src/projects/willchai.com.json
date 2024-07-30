@@ -3,10 +3,9 @@
     "label":"WebDev",
     "priority": "140",
     "tags": [
-        "React",
-        "Cybrancee",
-        "Plesk",
-        "JavaScript"
+        "React.js",
+        "Git",
+        "Figma"
     ],
     "link": "https://github.com/Artyom-G/willchai.com"
 }

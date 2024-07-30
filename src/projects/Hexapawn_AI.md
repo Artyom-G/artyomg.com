@@ -2,4 +2,6 @@ Initially, this hexapawn bot may seem to be doing random plays but it soons lear
 
 It takes just a few games in and the bot has completely learned all the best strategies, good luck getting a win, 10 round in.
 
-<iframe src='https://i.simmer.io/@TurboKozel/hexapawn-ai' style='width:1000px;height:562px'></iframe>
+<div>
+<embed src='https://i.simmer.io/@TurboKozel/hexapawn-ai' style='width:1000px;height:562px'></embed>
+</div>

@@ -4,4 +4,6 @@ It was built using React.js and hosted via Cybrancee. Includes an email contact 
 
 This website helped me score a handful of clients as a photographer and continues to serve as a great business card to this day.
 
-<iframe src='https://photo.artyomg.com' width='1100' height='660' frameborder='0'></iframe>
+<div>
+<embed src='https://photo.artyomg.com' width='1100' height='660' frameborder='0'></embed>
+</div>
