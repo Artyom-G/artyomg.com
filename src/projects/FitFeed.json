@@ -1,6 +1,6 @@
 {
     "title": "FitFeed",
-    "filters":["Featured", "Mobile"],
+    "filters":["Featured", "Mobile", "WebDev"],
     "priority": "110",
     "tags": [
         "React Native",
