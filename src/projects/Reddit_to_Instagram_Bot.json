@@ -1,0 +1,14 @@
+{
+    "title": "Reddit to Instagram Bot",
+    "label":"Bot",
+    "priority": "170",
+    "tags": [
+        "Python",
+        "Firebase",
+        "Google Cloud",
+        "Selenium Webdriver",
+        "Instagram API",
+        "PRAW"
+    ],
+    "link": "https://replit.com/@ArtyomGabtraupo/Instagram-Bot"
+}

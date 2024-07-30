@@ -1,0 +1,15 @@
+{
+    "title": "FitFeed",
+    "thumbnail" : "FitFeed.png",
+    "label":"Mobile",
+    "priority": "110",
+    "tags": [
+        "React Native",
+        "Firebase",
+        "Google Cloud",
+        "Async Storage",
+        "Camera",
+        "Mobile"
+    ],
+    "link": "https://github.com/Artyom-G/FitFeed"
+}

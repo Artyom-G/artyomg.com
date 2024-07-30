@@ -1,0 +1,13 @@
+{
+    "title": "EcoSim",
+    "thumbnail" : "EcoSim.jpg",
+    "label":"GameDev",
+    "priority": "160",
+    "tags": [
+        "Unity",
+        "C#",
+        "Blender",
+        "Perlin Noise"
+    ],
+    "link": "https://artyomg.itch.io/ecosim"
+}
