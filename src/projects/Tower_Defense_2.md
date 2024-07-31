@@ -27,3 +27,12 @@ I led a team of students to develop an isometric tower defense game built in Uni
 **Backend Development:** Developed backend logic for enemy waves, tower placement, and game progression.
 
 **Version Control:** Managed version control and cloud syncing using Plastic SCM, facilitating smooth collaboration and code integration.
+
+
+# The Prequel Game
+
+Your lives are the spaces on the floor, you lose lives, holes start to appear obstructing your placement area.
+
+<div>
+<embed src="https://itch.io/embed-upload/3812759?color=3a3a3a" width="1044" height="664"></embed>
+</div>

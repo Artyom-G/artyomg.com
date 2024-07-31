@@ -23,6 +23,7 @@
         opacity: 0.6;
         -webkit-animation: breathing 2s ease-out infinite normal;
         animation: breathing 2s ease-out infinite normal;
+        cursor: pointer;
 
         &__disabled{
             display: none;
@@ -32,6 +33,7 @@
     &__iframe {
         border-radius: 10px;
         border: none;
+        cursor: pointer;
     }
 
     &__bigger-display-message {
