@@ -1,6 +1,6 @@
 {
     "title": "University of Guelph Trivia App",
-    "filters":["Featured", "WebDev"],
+    "filters":["WebDev"],
     "priority": "190",
     "tags": [
         "React.js",

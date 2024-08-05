@@ -6,7 +6,7 @@ const filterOptions = ["All", "Featured", "WebDev", "Mobile", "GameDev", "AI", "
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
-    const [filter, setFilter] = useState("All");
+    const [filter, setFilter] = useState("Featured");
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -53,7 +53,7 @@ const Projects = () => {
                 {filteredProjects.map((project, index) => (
                     <div 
                         key={index} 
-                        className="projects__card"
+                        className={`projects__card ${index === 0 ? 'projects__card--large' : ''}`}
                         onClick={() => handleProjectClick(project)}
                     >
                         <img src={require(`../projects/${project.name}.jpg`)} alt={project.title}/>
