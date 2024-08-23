@@ -1,0 +1,12 @@
+{
+    "title": "Gatalinie",
+    "filters":["WebDev"],
+    "priority": "146",
+    "tags": [
+        "React.js",
+        "EmailJS",
+        "Figma",
+        "Plesk"
+    ],
+    "link": "https://github.com/Artyom-G/gatalinie.com"
+}
