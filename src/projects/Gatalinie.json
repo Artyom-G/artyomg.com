@@ -1,6 +1,6 @@
 {
     "title": "Gatalinie",
-    "filters":["WebDev"],
+    "filters":["Featured", "WebDev"],
     "priority": "146",
     "tags": [
         "React.js",
