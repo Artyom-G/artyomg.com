@@ -1,6 +1,9 @@
 # Overview
 
-Ragdoll Smash is an expanded version of a game made during a 12-hour hackathon that I worked on with a partner. This version builds upon the original concept, providing a chaotic and entertaining experience where up to four local players control stickmen with ragdoll physics. The goal is simple: be the last player standing by knocking others off the platform.
+Ragdoll Smash a game made during a 12-hour hackathon that I worked on with a partner. This submission won 2nd place overall at CamHacks hackathon. 
+
+This version builds upon the original concept, providing a chaotic and entertaining experience where up to four local players control stickmen with ragdoll physics. The goal is simple: be the last player standing by knocking others off the platform.
+
 
 # Gameplay
 
