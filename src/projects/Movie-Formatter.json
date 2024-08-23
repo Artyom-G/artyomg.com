@@ -1,0 +1,9 @@
+{
+    "title": "Movie Screenplay Formatter",
+    "filters":["Bot"],
+    "priority": "200",
+    "tags": [
+        "Google App Scripts"
+    ],
+    "link": "https://github.com/Artyom-G/Movie-Screenplay-Google-Doc-Formatter"
+}
