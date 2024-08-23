@@ -1,6 +1,6 @@
 # Project Overview
 
-I led a team of students to develop an isometric tower defense game built in Unity. Welcome to Tower Defense 2, a thrilling 2D top-down pixel isometric tower defense game that showcases my skills in game engines, object-oriented programming, and cloud syncing with Plastic SCM.
+I led a team of students to develop an isometric tower defense game built in Unity. Welcome to Rats and Shells Tower Defense, a thrilling 2D top-down pixel isometric tower defense game that showcases my skills in game engines, object-oriented programming, and cloud syncing with Plastic SCM.
 
 # Technologies Used
 
@@ -11,7 +11,7 @@ I led a team of students to develop an isometric tower defense game built in Uni
 **OOP:** Used Object Oriented Programming structures to create the game logic. 
 
 <div>
-<embed src='https://i.simmer.io/@TurboKozel/tower-defense-2' width='1100' height='660'></embed>
+<embed src='https://i.simmer.io/@TurboKozel/rats-and-shells' width='1100' height='660'></embed>
 </div>
 
 # Key Features
