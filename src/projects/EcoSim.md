@@ -13,6 +13,20 @@ Welcome to EcoSim, an ecological simulator designed to model the interactions an
 
 **Blender:** Used Blender for other 3D assets.
 
+<div>
+<embed src="https://i.simmer.io/@TurboKozel/icosim" width="1300" height="780"></embed>
+</div>
+
+# Controls
+
+**Movement**: WASD
+
+**Vertical Movement**: EQ
+
+**Faster Movement**: Shift
+
+**Click on Entities**: This will make the camera follow them automatically
+
 
 # Key Features
 

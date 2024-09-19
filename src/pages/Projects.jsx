@@ -6,7 +6,7 @@ const filterOptions = ["All", "Featured", "WebDev", "Mobile", "GameDev", "AI", "
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
-    const [filter, setFilter] = useState("Featured");
+    const [filter, setFilter] = useState("All");
     const navigate = useNavigate();
 
     useEffect(() => {
