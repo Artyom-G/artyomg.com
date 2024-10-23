@@ -1,6 +1,16 @@
 # Overview
 
-The **Movie Screenplay Formatter** is a Google App Script designed to automate the process of formatting Google Docs to meet industry-standard screenplay formats. This script was used in the production of two films: a short film and a feature-length film currently in development. By applying this script, writers can focus on creativity while ensuring their scripts adhere to the precise formatting required in the film industry.
+The **Movie Screenplay Formatter** is a Google App Script designed to automate the process of formatting Google Docs to meet industry-standard screenplay formats. This script was used in the production of two films: a short film, Thread by Thread, and a feature-length film, Murder of Minus, currently in development. By applying this script, writers can focus on creativity while ensuring their scripts adhere to the precise formatting required in the film industry.
+
+# Thread By Thread
+
+Lead a team of students to produce a short film about a demon trying to redeem herself. It is a social commentary on the way good deeds are percieved in the eyes of others and who ultimately gets to decide what is right and wrong.
+
+<div>
+<youtube embedId="4-6Id7ZshdY">
+</div>
+
+The screenplay is open-access and can be found [here](https://docs.google.com/document/d/1bvz1aBPPKCudUeyiQv7Ca0zA2uapq_bcUWDu3OByoEg/edit?usp=sharing).
 
 # Features
 
@@ -24,8 +34,3 @@ The **Movie Screenplay Formatter** is a Google App Script designed to automate t
 
 To use the **Movie Screenplay Formatter**, simply run the script on any Google Doc, and it will automatically format your text to meet screenplay standards, saving you valuable time and ensuring professional results.
 
-Here is the short film that used the Formatter script:
-
-<div>
-<youtube embedId="EMxavedtJks">
-</div>

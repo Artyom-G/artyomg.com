@@ -1,9 +1,11 @@
 {
-    "title": "Movie Screenplay Formatter",
+    "title": "Thread by Thread Screenplay Formatter",
     "filters":["Bot"],
-    "priority": "200",
+    "priority": "144",
     "tags": [
-        "Google App Scripts"
+        "Team Management",
+        "Google App Scripts", 
+        "Film Production"
     ],
     "link": "https://github.com/Artyom-G/Movie-Screenplay-Google-Doc-Formatter"
 }

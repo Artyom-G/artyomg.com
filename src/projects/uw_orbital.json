@@ -1,0 +1,12 @@
+{
+    "title": "UW Orbital",
+    "filters":["Featured", "Firmware"],
+    "priority": "92",
+    "tags": [
+        "Firmware",
+        "Low Level C Programming",
+        "Git",
+        "Notion"
+    ],
+    "link": "https://www.uworbital.com/mission"
+}

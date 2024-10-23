@@ -11,7 +11,7 @@ I was commissioned to create a custom portfolio website for a McMaster Health Sc
 **Git & GitHub:** Used Git and GitHub to collaboratively contribute to the custom React.js website, ensuring efficient teamwork and code management.
 
 <div>
-  <embed src='https://willchai.com' width='1200' height='800'></embed>
+  <embed src='https://willchai.com' width='1200' height='800' scrolling='yes'></embed>
 </div>
 
 # Key Features

@@ -6,6 +6,8 @@ This is the website of the Gatalinie brand that I developed from scratch based o
 
 I made a custom portfolio website for a Kitchener-based clothing designer. This project involved implementation of modern web development practices to deliver a professional and responsive portfolio.
 
+The website contributed to **$10,000 in revenue** within the first three months, thanks to the seamless integration of interactive features that engaged potential clients.
+
 
 # Technologies Used
 

@@ -1,0 +1,12 @@
+{
+    "title": "SOCIS",
+    "filters":["Featured", "WebDev"],
+    "priority": "134",
+    "tags": [
+        "React.js",
+        "Git",
+        "Next.js",
+        "PostgreSQL"
+    ],
+    "link": "https://socis.ca"
+}

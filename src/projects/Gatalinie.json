@@ -1,7 +1,7 @@
 {
     "title": "Gatalinie",
     "filters":["Featured", "WebDev"],
-    "priority": "146",
+    "priority": "90",
     "tags": [
         "React.js",
         "EmailJS",

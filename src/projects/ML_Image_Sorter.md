@@ -9,6 +9,9 @@ This project involves the solo development of a Deep Learning program designed t
 
 **Google Colab:** For developing and running the machine learning experiments in the cloud.
 
+<div>
+<picture src="https://www.researchgate.net/publication/355673388/figure/fig3/AS:1107787778138112@1641128596894/Graphs-a-loss-graph-b-accuracy-graph.jpg" alt="Mitosis Graph Accuracy"></picture>
+</div>
 
 # Key Features
 
