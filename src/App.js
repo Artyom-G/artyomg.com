@@ -49,12 +49,10 @@ function App() {
     return (
         <div className="App">
             {
-                location.pathname === "/" ? <Particles id="tsparticles" options={particles_home} particlesLoaded={particlesLoaded} /> : <></>
+                location.pathname === "/" ? 
+                    <Particles id="tsparticles" options={particles_home} particlesLoaded={particlesLoaded} /> : 
+                    <Particles id="tsparticles" options={particles_other} particlesLoaded={particlesLoaded} />
             }
-            {
-                location.pathname != "/" ? <Particles id="tsparticles" options={particles_other} particlesLoaded={particlesLoaded} /> : <></>
-            }
-
 
             <NavBar />
 

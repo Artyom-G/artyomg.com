@@ -1,0 +1,13 @@
+{
+    "title": "Pokéle",
+    "filters":["Web"],
+    "priority": "70",
+    "tags": [
+        "Python Flask",
+        "React.js",
+        "Backend Development",
+        "ORM",
+        "Frontend Development"
+    ],
+    "link": "https://pokele.artyomg.com"
+}
