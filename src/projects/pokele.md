@@ -25,8 +25,8 @@ The backend can be accessed through the following domain:
 It supports the following endpoints: 
 
 - [/api/v1/<id|name>](https://pokele.onrender.com/api/v1/bulbasaur) will give all the information on a given pokemon
-- [/api/v1/guess/<id|name>](https://pokele.onrender.com/api/v1/bulbasaur) will give the *intersection* of the given pokemon and the daily solution pokemon
-- [/api/v1/ping](https://pokele.onrender.com/api/v1/ping) retrieves "pong"
+- [/api/v1/guess/<id|name>](https://pokele.onrender.com/api/v1/guess/bulbasaur) will give the *intersection* of the given pokemon and the daily solution pokemon
+- [/api/v1/ping](https://pokele.onrender.com/api/v1/ping) retrieves "pong" for testing purposes
 
 # Technologies Used
 
