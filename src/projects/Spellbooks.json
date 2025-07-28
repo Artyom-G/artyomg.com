@@ -1,0 +1,15 @@
+{
+    "title": "Spellbooks",
+    "filters":["Featured", "WebDev", "AI"],
+    "priority": "10",
+    "tags": [
+        "React.js",
+        "FastAPI",
+        "GeminiAPI",
+        "Docker",
+        "MongoDB",
+        "Electron",
+        "Tailwind"
+    ],
+    "link": "https://github.com/ikesicle/spurhacks-25-proj"
+}

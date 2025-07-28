@@ -6,7 +6,7 @@ This is the website of the Gatalinie brand that I developed from scratch based o
 
 I made a custom portfolio website for a Kitchener-based clothing designer. This project involved implementation of modern web development practices to deliver a professional and responsive portfolio.
 
-The website contributed to **$10,000 in revenue** within the first three months, thanks to the seamless integration of interactive features that engaged potential clients.
+The website contributed to **$3,000 in revenue** within the first three months, thanks to the seamless integration of interactive features that engaged potential clients.
 
 
 # Technologies Used
@@ -22,8 +22,6 @@ The website contributed to **$10,000 in revenue** within the first three months,
 # Key Features
 
 **Responsive Design:** Just like the site you are on right now, this website supports desktop, tablet, and mobile displays, ensuring a seamless user experience across all devices.
-
-**Adaptive Pages:** The website implements a very convenient system for managing webpages, making it easy for the client to create, edit and delete webpages and their projects.
 
 **Modern UI/UX:** Implemented a clean and modern design that aligns with the latest web design trends.
 
