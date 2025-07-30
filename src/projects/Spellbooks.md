@@ -4,6 +4,9 @@
 
 In the world of software development and system administration, the command line is our wand. Yet, we found our spellbook (our collections of scripts and commands) to be scattered, disorganized, and often cryptic. We would spend precious time hunting for that one-liner we wrote months ago or struggling to remember the arcane syntax of "ffmpeg" or "awk". What if we created a tool that not only stored our scripts but also helped us understand, find, and even *create* them just by describing what we wanted to do? That's how the idea for **Spellbook** was born: an AI-powered desktop app to make the command line more accessible and powerful for everyone.
 
+<div>
+<youtube embedId="D-aOsV4E7Nc">
+</div>
 
 ## Tech Stack
 - **React**, **Electron**, **Tailwind**
