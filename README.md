@@ -1,3 +1,5 @@
+This repo is outdated, there is a new Next.js project, [https://artyomg.com/project/?id=pokele](https://artyomg.com/project/?id=pokele)
+
 # To Get Started
 
 Make sure you have node.js and git installed
