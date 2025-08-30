@@ -1,4 +1,4 @@
-This repo is outdated, there is a new Next.js project, [https://artyomg.com/project/?id=pokele](https://artyomg.com/project/?id=pokele)
+This repo is outdated, there is a new Next.js project, [https://github.com/Artyom-G/artyomg.com_next](https://github.com/Artyom-G/artyomg.com_next)
 
 # To Get Started
 
